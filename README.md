@@ -1,15 +1,76 @@
-# Tokyo-Olympic-Data-Analytics
-![dashboard](https://github.com/Ankithavenkannagari/Tokyo-Olympic-Data-Analytics/blob/main/main/tokyoflowchart.png)
+# 🏅 Tokyo Olympic Data Analytics – End-to-End ETL Pipeline
 
-# Description: #
-This project involves building an end-to-end ETL pipeline to analyze and visualize Tokyo Olympics 2021 data. The pipeline extracts data from APIs, processes it using Azure services, and presents insights through Power BI dashboards.
+📌 **Objective**  
+The **Tokyo Olympic Data Analytics** project aimed to design and implement an **end-to-end ETL (Extract, Transform, Load) pipeline** to analyze and visualize data from the **Tokyo Olympics 2021**, enabling sports analysts, coaches, and enthusiasts to gain actionable insights.
 
-# Data Preparation: #
-Data Extraction: Utilized APIs to gather raw data related to the Tokyo Olympics 2021.
-Data Transformation: Employed Azure Data Factory for orchestrating data workflows and Azure Databricks for data processing tasks, including cleaning, transformation, and integration.
-Data Loading: Loaded the processed data into Azure Synapse Analytics for efficient querying and analysis.
+---
 
-# Technologies Used: # 
-Azure Data Factory, Data Lake Gen 2, Azure Databricks, Azure Synapse Analytics, PowerBI.
+## 🔗 Project Links    
+- 📂 [GitHub Repository](https://github.com/Ankithavenkannagari/Tokyo-Olympic-Data-Analytics)  
+- 📊 [Dataset – Tokyo Olympics 2021 (Kaggle)](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)  
 
-This project showcases the integration of various Azure services to build a scalable and efficient data engineering pipeline, providing valuable insights into the Tokyo Olympics 2021 data.
+---
+
+## 📂 Dataset  
+- **Source:** Kaggle Dataset 
+- **Size:** ~1 TB of raw data (via APIs)  
+- **Features Include:**  
+  - Athlete details (name, country, gender, age)  
+  - Sports and events (discipline, medal categories)  
+  - Medals tally (Gold, Silver, Bronze)  
+  - Country-level participation and results  
+
+---
+
+## 🔍 Methodology  
+
+1. **Data Extraction**  
+   - Collected raw Olympic data from multiple APIs.  
+
+2. **Data Transformation**  
+   - Orchestrated workflows in **Azure Data Factory**.  
+   - Processed, cleaned, and integrated data in **Azure Databricks**.  
+
+3. **Data Loading**  
+   - Stored curated datasets in **Azure Synapse Analytics** for efficient querying.  
+
+4. **Visualization**  
+   - Built **interactive Power BI dashboards** to visualize medal counts, country performance, and athlete insights.  
+
+---
+
+## 📊 Results & Business Impact  
+- Developed a **scalable ETL pipeline** using Azure services.  
+- Enabled **real-time insights** into athlete and country performance.  
+- Helped sports analysts, coaches, and fans perform **data-driven performance analysis**.  
+- Enhanced **understanding of the event’s dynamics** and medal distribution.  
+
+---
+
+## ✅ Key Learnings  
+- Learned to integrate **multiple Azure services** into a seamless pipeline.  
+- Tackled challenges of **data extraction from multiple APIs**.  
+- Improved skills in **data quality handling** and large-scale transformation in **Databricks**.  
+- Strengthened ability to build **interactive Power BI dashboards**.  
+
+---
+
+## 🛠 Tools & Technologies  
+- **Azure Data Factory** – Data workflow orchestration  
+- **Azure Databricks** – Data cleaning, transformation, integration  
+- **Azure Synapse Analytics** – Data warehouse & querying  
+- **Power BI** – Interactive dashboards & visualization  
+
+---
+
+## 📈 Future Improvements  
+- Incorporate **real-time streaming data** for live event insights.  
+- Use **Azure Machine Learning** to predict athlete performance & medal probabilities.  
+- Expand dashboard to include **historical Olympics data comparisons**.  
+- Build **mobile-optimized dashboards** for broader accessibility.  
+
+---
+
+## 🏆 Summary  
+This project showcases how to design an **end-to-end analytics pipeline** using **Azure services** to process, transform, and visualize **Tokyo Olympics 2021 data**.  
+It highlights the **power of cloud data engineering** in turning large-scale raw data into actionable insights for analysts, coaches, and sports enthusiasts.  
